@@ -25,4 +25,4 @@ Shippers(**ShipperID**, ShipperName, Phone)
 Suppliers(**SupplierID**, SupplierName, ContactName, Address, City, PostalCode, Country, Phone)
 ```
 
-![./modelo-fisico.png](Modelo Físico)
+![Modelo Físico](https://raw.githubusercontent.com/matias-pierobon/dbd/master/sql-sandbox/modelo-fisico.png)
