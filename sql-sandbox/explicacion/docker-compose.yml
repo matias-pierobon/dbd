@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  db:
+    build: .
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    ports:
+      - "8200:80"
+    links:
+      - db
