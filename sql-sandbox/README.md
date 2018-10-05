@@ -15,7 +15,7 @@ Utilizaremos la plataforma de la w3c para realizar pruebas sobre un motor web
 ### Modelo Físico
 
 ```markdown
-Costumers(**CustomerID**, CustomerName, ContactName, Address, City, PostalCode, Country)
+Customers(**CustomerID**, CustomerName, ContactName, Address, City, PostalCode, Country)
 Categories(**CategoryID**, CategoryName, Description)
 Employees(**EmployeeID**, LastName, FirstName, BirthDate, Photo, Notes)
 OrderDetails(**OrderDetailID**, OrderID, ProductID, Quantity)
